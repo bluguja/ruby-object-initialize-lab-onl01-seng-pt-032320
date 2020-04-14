@@ -17,9 +17,7 @@ class Dog
   end 
 end 
   
-  fido = Dog.new("Fido") # => #<Dog:0x00564f20b62040 @name="Fido", @breed="Mutt">
-  
-  # github solutions:
+  fido = Dog.new("Fido")
   
 class Dog
   def initialize(name, breed = "Mutt")
